@@ -1,4 +1,4 @@
-#1 Containers and iterators in C++
+# 1 Containers and iterators in C++
 Write a C++ program with a 8x8 (i.e. 2 dimensional matrix) chessboard and an iterator
 over that chessboard.
 The pieces on the chess board have a color, piece, and position. The color is either Black
@@ -13,7 +13,7 @@ The position is given by an x,y coordinate, each coordinate on the board is in t
 0...7. White’s pieces in the beginning of a game are in rows 0 and 1, while Black’s pieces are
 in rows 6 and 7.
 1
-#1.1 The container
+# 1.1 The container
 The container chessboard should have the methods
 • int place(int x, int y, color c, piece p): to place the piece on the chessboard. It should
 return
@@ -38,20 +38,20 @@ return
 – -6 if toX, toY is occupied with a piece of the same color as the one being moved
 – -7 if illegal move
 • print() Print the 8x8 board using the iterator.
-#1.2 Iterator
+# 1.2 Iterator
 The iterator should go through the chessboard in the order
 [0, 0], [1, 0], . . . , [7, 0], [0, 1], [1, 1], . . .
 There should be a method which translates the iterator into x,y coordinates for the
 chessboard.
 • it.xy(int &x, int &y)
 
-#Electronic Submission
+# Electronic Submission
 Before submission, make sure your name appears somewhere on your assignment. When you
 are ready to submit, login to Blackboard, find Assessments in the left hand side, then follow
 the link to Gradescope (or navigate to Gradescope directly), and then submit your image
 to “Project 1”. You may submit as many times as you want, but we grade only the last
 submission.
-#Policy
+# Policy
 All work is to be done individually — group work is not allowed. While we encourage you to
 talk to your peers and learn from them, this interaction must be superficial with regards to
 all work submitted for grading. This means you *cannot* work in teams, you cannot work
